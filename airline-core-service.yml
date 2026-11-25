@@ -9,3 +9,10 @@ spring:
     username: root
     password: sumitSQL@8299
     driver-class-name: com.mysql.cj.jdbc.Driver
+
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+  instance:
+    prefer-ip-address: true
